@@ -1,20 +1,20 @@
-.footer__link{
-    font-size: 16px;
-    line-height: 1;
-    text-decoration: none;
-    color: #FFF;
-    font-weight: 400;
-    font-family: 'Inter';
-    cursor: pointer;
-    transition: opacity .4s;
+.footer__link {
+  font-size: 16px;
+  line-height: 1;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 400;
+  font-family: 'Inter', Arial, sans-serif;
+  cursor: pointer;
+  transition: opacity .4s;
 }
 
-.footer__link:hover{
-    opacity: 0.8;
+.footer__link:hover {
+  opacity: 0.8;
 }
 
-@media screen and (max-width: 767px){
-    .footer__link{
-        font-size: 24px;
-    }
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 24px;
+  }
 }

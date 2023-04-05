@@ -1,0 +1,5 @@
+.place__paragraphs{
+    display: grid;
+    row-gap: 26px;
+    grid-template-rows: minmax(min-content, max-content);
+}

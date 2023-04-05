@@ -1,39 +1,38 @@
-.cover{
-    display: flex;
-    max-width: 1184px;
-    background-image: url(../../images/overlay__background.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 740px;
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
+.cover {
+  display: flex;
+  max-width: 1184px;
+  background-image: url(../../images/overlay__background.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 740px;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
 }
 
-@media screen and (max-width: 1279px){
-    .cover{
-        min-height: 640px;
-    }
+@media screen and (max-width: 1279px) {
+  .cover {
+    min-height: 640px;
+  }
 }
 
-@media screen and (max-width: 1023px){
-    .cover{
-        min-height: 480px;
-    }
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
+  }
 }
 
-@media screen and (max-width: 767px){
-    .cover{
-        min-height: 200px;
-    }
-    }
+@media screen and (max-width: 767px) {
+  .cover {
+    min-height: 200px;
+  }
+}
 
-    .cover::after{
-        content: "";
-        width: 0;
-        height: 0;
-        margin-left: -1px;
-        padding-top: calc(740/ 1184 * 100%)
-    }
+.cover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  padding-top: calc(740/ 1184 * 100%);
+}
