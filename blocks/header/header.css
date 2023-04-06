@@ -1,16 +1,15 @@
 .header {
-  padding: 28px 0 56px;
+  padding: 28px 0 60px;
   margin: 0 auto;
   max-width: 1184px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-
 }
 
 @media screen and (max-width: 1279px) {
   .header {
-    padding-top: 48px;
+    padding-bottom: 48px;
     max-width: 928px;
   }
 }
