@@ -1,7 +1,7 @@
 .intro__text {
   font-size: 16px;
-  line-height: calc(26/16);
-  margin: 40px 0 33px;
+  line-height: 1.63;
+  margin: 40px 0 34px;
   font-weight: 400;
   font-family: 'Inter', Arial, sans-serif;
 }
